@@ -1,0 +1,130 @@
+/* Estilos de navegacion comunes */
+.navigation-wrapper {
+    height: 100px;
+    background-color: black;
+    color: white;
+    /*Contenedor FLEXBOX*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+/*Estilos de la columna IZQUIERDA IMAGEN*/
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .logo img {
+    width: 200px;
+    height: 100%;  
+}
+
+/*Estilos de columna CENTRO*/
+.navigation-wrapper > .center-column > .explore {
+    color:#cea135;
+    width: 200px;
+    height: 100%;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.navigation-wrapper > .center-column{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+    width: 500px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+   
+.links-wrapper > .nav-link a {
+    font-family: 'Kanit', sans-serif;
+    color:#cbcbcb;
+    text-decoration: none;
+}
+
+/* Estilos de la columna derecha */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+.navigation-wrapper > .right-column > .btn-group {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: white;
+    width:100px;
+    height:30px;
+}
+
+.navigation-wrapper > .right-column > .icono-lupa i {
+    color: gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+/*CENTRO*/
+.centro {
+    display: flex;
+    justify-content: center;
+    background:rgb(61, 59, 59);
+}
+
+.centro > .centro-izquierda p {
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+   
+}
+
+.centro > .centro-izquierda > .texto > .texto1 {
+    font-size:35px;
+    color:white;
+}
+
+.centro > .centro-izquierda > .texto > .texto2 {
+    font-size:25px;
+    color: white;
+}
+
+.centro > .centro-izquierda > .botones-centro > .btn-group{
+    font-size: 1.80em;
+    align-items: center;
+    padding-left: 110px;
+}
+
+.final {
+    display: flex;
+    align-items: center;
+}
+.final > .rectangulo {
+    width: 385px; 
+    height: 65px; 
+    border: 2px solid #555;
+    background: rgb(46, 45, 45);
+}
+
+.final > .rectangulo > .anchor-link {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+}
